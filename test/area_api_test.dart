@@ -44,6 +44,6 @@ Future<Area> fetchArea(http.Client client) async {
   if (response.statusCode == 200) {
     return Area.fromJson(jsonDecode(response.body));
   } else {
-    throw Exception('Failed to load album');
+    throw Exception('Failed to load area');
   }
 }
