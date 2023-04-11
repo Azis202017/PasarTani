@@ -39,7 +39,6 @@ Future<Area> fetchArea(http.Client client) async {
              dotenv.get('API_KEY')
       });
 
-  print(jsonDecode(response.body));
 
   if (response.statusCode == 200) {
     return Area.fromJson(jsonDecode(response.body));
