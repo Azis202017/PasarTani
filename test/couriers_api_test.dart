@@ -45,6 +45,6 @@ Future<Couriers> fetchCouriers(http.Client client) async {
     return Couriers.fromJson(jsonDecode(response.body));
   } else {
  
-    throw Exception('Failed to load album');
+    throw Exception('Failed to load couriers');
   }
 }
