@@ -1,16 +1,82 @@
-# pasartani
 
-A new Flutter project.
+# Pasar Petani
 
-## Getting Started
+Project ini adalah solusi untuk pengguna yang ingin membeli produk pertanian.
+## Authors
 
-This project is a starting point for a Flutter application.
+- [@Abdul Azis Al Ayubbi](https://www.github.com/azis202017)
+- [@Natalie Diva](https://www.github.com/nataliedk)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Sell product
+- Buy Product
+- Delivery Product
+- Chat
+- Add product to cart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🛠 Skills
+Flutter, Dart
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Azis202017/PasarTani.git
+```
+
+Go to the project directory
+
+```bash
+  cd PasarTani
+```
+
+Install dependencies
+
+```bash
+  flutter pub get 
+```
+
+Start the server
+
+```bash
+  flutter run dev
+```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+## Tech Stack
+
+**Client:** Flutter
+
+**Server:** Laravel
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+    flutter test test/namafile_test.dart
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+    flutter build apk
+```
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at azisa6980@gmail.com
+
