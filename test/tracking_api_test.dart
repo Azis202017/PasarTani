@@ -7,7 +7,7 @@ import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:pasartani/app/const/api_url.dart';
 import 'package:pasartani/app/data/tracking.dart';
-import 'area_api_test.mocks.dart';
+import 'tracking_api_test.mocks.dart';
 
 @GenerateMocks([http.Client])
 void main() async {
