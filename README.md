@@ -1,6 +1,6 @@
 
 # Pasar Petani
-[![Codemagic build status](https://api.codemagic.io/apps/6439475781e0fa9f65dd426a/6439475781e0fa9f65dd4269/status_badge.svg)](https://codemagic.io/apps/6439475781e0fa9f65dd426a/6439475781e0fa9f65dd4269/latest_build) <br>
+
 Project ini adalah solusi untuk pengguna yang ingin membeli produk pertanian.
 ## Authors
 
@@ -80,3 +80,7 @@ To deploy this project run
 
 If you have any feedback, please reach out to us at azisa6980@gmail.com
 
+
+## CI/CD
+CI/CD For Flutter
+[![Codemagic build status](https://api.codemagic.io/apps/6439475781e0fa9f65dd426a/6439475781e0fa9f65dd4269/status_badge.svg)](https://codemagic.io/apps/6439475781e0fa9f65dd426a/6439475781e0fa9f65dd4269/latest_build) 
