@@ -14,7 +14,7 @@ class TransactionDetailView extends GetView<TransactionDetailController> {
           title: const Text('TransactionDetailView'),
           centerTitle: true,
         ),
-        body: ListView(
+        body: controller.isLoading ? const Center(child : CircularProgressIndicator()) : ListView(
           children: controller.trackingOrder.history!
               .map((e) => Text(e.note ?? ""))
               .toList(),
