@@ -47,7 +47,7 @@ class LoginView extends GetView<LoginController> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left:20.79),
+                    padding: const EdgeInsets.only(left: 20.79),
                     child: CachedNetworkImage(
                       imageUrl:
                           'https://res.cloudinary.com/dkkga3pht/image/upload/v1681324995/Group_1453_shka7i.png',
@@ -109,9 +109,26 @@ class LoginView extends GetView<LoginController> {
                     child: SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
-                          Text('Your Email Address'),
-                          Text('Your Email Address'),
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          const Text('Your Email Address'),
+                          const Text('Password'),
+                          
+                          Center(
+                            child: RichText(
+                              text: TextSpan(
+                                style:
+                                    bottomLoginText.copyWith(color: Colors.black),
+                                text: 'Don\'t have a account? ',
+                                children: [
+                                  TextSpan(
+                                    text: 'Sign Up',
+                                    style :bottomLoginText.copyWith(color: Colors.amber),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     ),
