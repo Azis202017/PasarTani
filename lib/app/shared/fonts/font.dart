@@ -5,3 +5,7 @@ TextStyle titleLogin =
     GoogleFonts.poppins(fontSize: 28, fontWeight: FontWeight.w600);
 TextStyle subtitleLogin =
     GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w400);
+TextStyle bottomLoginText = GoogleFonts.poppins(
+  fontSize: 13,
+  fontWeight: FontWeight.w400,
+);
